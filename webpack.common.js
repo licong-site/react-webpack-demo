@@ -11,7 +11,7 @@ module.exports = (env) => {
       extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
     },
     entry: {
-      index: './src/index.tsx',
+      index: './src/app.tsx',
     },
     output: {
       path: path.resolve(__dirname, 'dist/'),
